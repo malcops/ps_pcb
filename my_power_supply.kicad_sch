@@ -3589,6 +3589,16 @@
 		)
 		(uuid "aef401e4-bfa6-4b5f-b1e0-02ddce09771d")
 	)
+	(text "DMP3098\nPhil's Lab video\nhttps://www.youtube.com/watch?v=W13HNsoHj7A"
+		(exclude_from_sim no)
+		(at 239.522 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d791443d-dc33-44a4-a47b-a78be8b2dfcf")
+	)
 	(text "For Cytron RP2040 Motor Controller board\nbulk capacitance to prevent spikes?\nGND/PWR screw terminals with 18AWG wire?\n\nConnectors? \n\nEnsure USB-C connector rated up to 5A"
 		(exclude_from_sim no)
 		(at 352.552 346.202 0)
@@ -3599,6 +3609,16 @@
 			(justify left)
 		)
 		(uuid "e940b171-7167-4488-b655-8214cda5390c")
+	)
+	(text "Replace with 0ohm and DNP"
+		(exclude_from_sim no)
+		(at 240.792 227.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eed66609-d2f9-4856-a9f2-a23401022902")
 	)
 	(junction
 		(at 241.3 116.84)
@@ -3629,12 +3649,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c784b19-583d-4ddc-9bef-01c8a2fb808c")
-	)
-	(junction
-		(at 213.36 219.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f9d159f-25d7-43c5-b925-b55fdb28b20a")
 	)
 	(junction
 		(at 187.96 410.21)
@@ -3791,6 +3805,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "785fa9b2-fd7e-47ce-a79b-0d17ed270648")
+	)
+	(junction
+		(at 213.36 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0a5e9e-b536-4f67-9d03-1095072926e3")
 	)
 	(junction
 		(at 220.98 391.16)
@@ -4045,10 +4065,6 @@
 		(uuid "7b10bb34-1820-4b47-96b8-1f5f022a7854")
 	)
 	(no_connect
-		(at 213.36 229.87)
-		(uuid "7d49af04-2901-47c7-b0e1-ade350ecc75b")
-	)
-	(no_connect
 		(at 68.58 110.49)
 		(uuid "8310fab0-42b9-4475-b1e5-55f7c8a9580d")
 	)
@@ -4071,10 +4087,6 @@
 	(no_connect
 		(at 246.38 151.13)
 		(uuid "d2e6732a-1b10-47ce-bbb1-6d13a830539b")
-	)
-	(no_connect
-		(at 213.36 222.25)
-		(uuid "e039c192-2937-406a-861a-a110685ec0db")
 	)
 	(no_connect
 		(at 50.8 123.19)
@@ -4249,16 +4261,6 @@
 			(type default)
 		)
 		(uuid "12e68200-de78-4453-a0e3-3f1e2544168c")
-	)
-	(wire
-		(pts
-			(xy 213.36 229.87) (xy 213.36 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "132dd42e-8bf6-43ea-bd26-d5dcb6851e13")
 	)
 	(wire
 		(pts
@@ -5182,6 +5184,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 219.71) (xy 213.36 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698afcf1-f124-4ffc-a66d-9715a99f1597")
+	)
+	(wire
+		(pts
 			(xy 96.52 415.29) (xy 96.52 421.64)
 		)
 		(stroke
@@ -5952,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 219.71) (xy 213.36 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b027480a-dd8c-4fc6-8e57-e6244a2a094a")
-	)
-	(wire
-		(pts
 			(xy 342.9 135.89) (xy 349.25 135.89)
 		)
 		(stroke
@@ -6009,6 +6011,16 @@
 			(type default)
 		)
 		(uuid "bcda8632-db00-468e-b1df-03922be09028")
+	)
+	(wire
+		(pts
+			(xy 213.36 231.14) (xy 213.36 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3376b3-568a-465b-87c3-031747a8de96")
 	)
 	(wire
 		(pts
@@ -13045,6 +13057,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 213.36 227.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "838831b5-e5df-4638-8d5d-e202e5df788c")
+		(property "Reference" "R17"
+			(at 215.9 226.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 215.9 228.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 215.138 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e6b4c3b1-90e5-4fd6-b170-fa2062ffb0fc")
+		)
+		(pin "1"
+			(uuid "59c49535-bb7e-45ff-8cf3-45eaa49447b8")
+		)
+		(instances
+			(project "my_power_supply"
+				(path "/08cc4527-d306-41b3-bcbb-e2b853cedcc4"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 198.12 400.05 0)
 		(mirror x)
@@ -15677,7 +15771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Connector_USB:USB_C_Plug_JAE_DX07P024AJ1"
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
