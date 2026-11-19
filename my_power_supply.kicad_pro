@@ -661,13 +661,21 @@
         "uuid": "08cc4527-d306-41b3-bcbb-e2b853cedcc4"
       }
     ],
-    "used_designators": "#PWR1-27,U1-5,Q1-3,C1-29,D1-4,L1-3,R1-30,JP8,SW1-2,J1-4",
+    "used_designators": "J1-4,SW1-2,JP1-2,JP8,R1-30,L1-3,D1-4,C1-29,Q1-3,U1-5,#PWR1-27",
     "variants": []
   },
   "sheets": [
     [
       "08cc4527-d306-41b3-bcbb-e2b853cedcc4",
       "my_power_supply"
+    ],
+    [
+      "61f0d09a-273f-462a-bb6d-4e0ab3df2fbe",
+      "BuckConvertor1"
+    ],
+    [
+      "db481cf4-c6dc-4190-a6dc-23c568936c02",
+      "BuckConvertor2"
     ]
   ],
   "text_variables": {},
